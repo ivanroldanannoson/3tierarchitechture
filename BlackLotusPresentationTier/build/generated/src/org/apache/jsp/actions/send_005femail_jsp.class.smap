@@ -1,0 +1,10 @@
+SMAP
+send_005femail_jsp.java
+JSP
+*S JSP
+*F
++ 0 send_email.jsp
+actions/send_email.jsp
+*L
+1,96:47
+*E

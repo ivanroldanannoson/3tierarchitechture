@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/vendor_dashboard.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/category.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/vendor_login_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/vendor_register_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/register_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/WEB-INF/web.xml</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/META-INF/context.xml</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/member_register.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/stock_update.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/add_to_cart.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/view_orders.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/vendor_login.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/src/conf/xml-resources/web-service-references/BusinessTier/wsdl/localhost_8082/BlackLotusBusinessTier/BusinessTier.wsdl</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/login_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/logout.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/invoice_generate.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/WEB-INF/jax-ws-catalog.xml</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/generate_invoice.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/vendor_forgot_password.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/clear_cart_stock_update.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/item.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/edit_item_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/member_dashboard.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/src/java/test/NewWebService.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/update_stock.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/create_item_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/stock_update_cart.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/view_stock.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/vendor_forgot_password.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/view_invoice.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/vendor_register.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/member_login.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/edit_category_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/src/conf/MANIFEST.MF</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/index.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/clear_cart.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/create_category_action.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusPresentationTier/web/actions/search_stock.jsp</file>
+        </group>
+    </open-files>
+</project-private>

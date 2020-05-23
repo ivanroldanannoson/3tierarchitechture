@@ -1,0 +1,550 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://data/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://data/">
+
+<xs:element name="checkCategoryExistByName" type="tns:checkCategoryExistByName" />
+
+<xs:element name="checkCategoryExistByNameResponse" type="tns:checkCategoryExistByNameResponse" />
+
+<xs:element name="checkLogin" type="tns:checkLogin" />
+
+<xs:element name="checkLoginResponse" type="tns:checkLoginResponse" />
+
+<xs:element name="checkUserExistByEmail" type="tns:checkUserExistByEmail" />
+
+<xs:element name="checkUserExistByEmailResponse" type="tns:checkUserExistByEmailResponse" />
+
+<xs:element name="checkVendorExistByEmail" type="tns:checkVendorExistByEmail" />
+
+<xs:element name="checkVendorExistByEmailResponse" type="tns:checkVendorExistByEmailResponse" />
+
+<xs:element name="createCategory" type="tns:createCategory" />
+
+<xs:element name="createCategoryResponse" type="tns:createCategoryResponse" />
+
+<xs:element name="createItem" type="tns:createItem" />
+
+<xs:element name="createItemResponse" type="tns:createItemResponse" />
+
+<xs:element name="editCategoryById" type="tns:editCategoryById" />
+
+<xs:element name="editCategoryByIdResponse" type="tns:editCategoryByIdResponse" />
+
+<xs:element name="editItemById" type="tns:editItemById" />
+
+<xs:element name="editItemByIdResponse" type="tns:editItemByIdResponse" />
+
+<xs:element name="getCategories" type="tns:getCategories" />
+
+<xs:element name="getCategoriesResponse" type="tns:getCategoriesResponse" />
+
+<xs:element name="getCategoryById" type="tns:getCategoryById" />
+
+<xs:element name="getCategoryByIdResponse" type="tns:getCategoryByIdResponse" />
+
+<xs:element name="getCurrentStockByItemId" type="tns:getCurrentStockByItemId" />
+
+<xs:element name="getCurrentStockByItemIdResponse" type="tns:getCurrentStockByItemIdResponse" />
+
+<xs:element name="getItemById" type="tns:getItemById" />
+
+<xs:element name="getItemByIdResponse" type="tns:getItemByIdResponse" />
+
+<xs:element name="getItems" type="tns:getItems" />
+
+<xs:element name="getItemsByCategory" type="tns:getItemsByCategory" />
+
+<xs:element name="getItemsByCategoryResponse" type="tns:getItemsByCategoryResponse" />
+
+<xs:element name="getItemsResponse" type="tns:getItemsResponse" />
+
+<xs:element name="getOrderByVendorId" type="tns:getOrderByVendorId" />
+
+<xs:element name="getOrderByVendorIdResponse" type="tns:getOrderByVendorIdResponse" />
+
+<xs:element name="getOrders" type="tns:getOrders" />
+
+<xs:element name="getOrdersByInvoiceId" type="tns:getOrdersByInvoiceId" />
+
+<xs:element name="getOrdersByInvoiceIdResponse" type="tns:getOrdersByInvoiceIdResponse" />
+
+<xs:element name="getOrdersResponse" type="tns:getOrdersResponse" />
+
+<xs:element name="getUserRole" type="tns:getUserRole" />
+
+<xs:element name="getUserRoleResponse" type="tns:getUserRoleResponse" />
+
+<xs:element name="getUsers" type="tns:getUsers" />
+
+<xs:element name="getUsersResponse" type="tns:getUsersResponse" />
+
+<xs:element name="getVendorById" type="tns:getVendorById" />
+
+<xs:element name="getVendorByIdResponse" type="tns:getVendorByIdResponse" />
+
+<xs:element name="getVendorTypeByEmail" type="tns:getVendorTypeByEmail" />
+
+<xs:element name="getVendorTypeByEmailResponse" type="tns:getVendorTypeByEmailResponse" />
+
+<xs:element name="getVendorTypeById" type="tns:getVendorTypeById" />
+
+<xs:element name="getVendorTypeByIdResponse" type="tns:getVendorTypeByIdResponse" />
+
+<xs:element name="getVendors" type="tns:getVendors" />
+
+<xs:element name="getVendorsResponse" type="tns:getVendorsResponse" />
+
+<xs:element name="insertOrder" type="tns:insertOrder" />
+
+<xs:element name="insertOrderItem" type="tns:insertOrderItem" />
+
+<xs:element name="insertOrderItemResponse" type="tns:insertOrderItemResponse" />
+
+<xs:element name="insertOrderResponse" type="tns:insertOrderResponse" />
+
+<xs:element name="searchOrCheckStockCakeByItemNameOrCode" type="tns:searchOrCheckStockCakeByItemNameOrCode" />
+
+<xs:element name="searchOrCheckStockCakeByItemNameOrCodeResponse" type="tns:searchOrCheckStockCakeByItemNameOrCodeResponse" />
+
+<xs:element name="updatePasswordByEmail" type="tns:updatePasswordByEmail" />
+
+<xs:element name="updatePasswordByEmailResponse" type="tns:updatePasswordByEmailResponse" />
+
+<xs:element name="updateStockByItemId" type="tns:updateStockByItemId" />
+
+<xs:element name="updateStockByItemIdResponse" type="tns:updateStockByItemIdResponse" />
+
+<xs:element name="userRegister" type="tns:userRegister" />
+
+<xs:element name="userRegisterResponse" type="tns:userRegisterResponse" />
+
+<xs:element name="vendorLogin" type="tns:vendorLogin" />
+
+<xs:element name="vendorLoginResponse" type="tns:vendorLoginResponse" />
+
+<xs:element name="vendorRegister" type="tns:vendorRegister" />
+
+<xs:element name="vendorRegisterResponse" type="tns:vendorRegisterResponse" />
+
+<xs:complexType name="editItemById">
+<xs:sequence>
+<xs:element name="item" type="tns:item" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="item">
+<xs:sequence>
+<xs:element name="addedBy" type="xs:int" />
+<xs:element name="categoryType" type="xs:int" />
+<xs:element name="id" type="xs:int" />
+<xs:element name="name" type="xs:string" minOccurs="0" />
+<xs:element name="price" type="xs:float" />
+<xs:element name="qty" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="editItemByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="vendorRegister">
+<xs:sequence>
+<xs:element name="vendor" type="tns:vendor" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="vendor">
+<xs:sequence>
+<xs:element name="addedBy" type="xs:int" />
+<xs:element name="address" type="xs:string" minOccurs="0" />
+<xs:element name="contact" type="xs:string" minOccurs="0" />
+<xs:element name="email" type="xs:string" minOccurs="0" />
+<xs:element name="id" type="xs:int" />
+<xs:element name="name" type="xs:string" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+<xs:element name="vendorType" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="vendorRegisterResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCurrentStockByItemId">
+<xs:sequence>
+<xs:element name="itemId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCurrentStockByItemIdResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendorTypeByEmail">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendorTypeByEmailResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendorById">
+<xs:sequence>
+<xs:element name="vendorId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendorByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:vendor" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="userRegister">
+<xs:sequence>
+<xs:element name="register" type="tns:register" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="register">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+<xs:element name="id" type="xs:int" />
+<xs:element name="name" type="xs:string" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+<xs:element name="userRole" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="userRegisterResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="vendorLogin">
+<xs:sequence>
+<xs:element name="login" type="tns:login" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="login">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="vendorLoginResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:vendor" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCategories">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getCategoriesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:category" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="category">
+<xs:sequence>
+<xs:element name="addedBy" type="xs:int" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="id" type="xs:int" />
+<xs:element name="name" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getItemsByCategory">
+<xs:sequence>
+<xs:element name="categoryId" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getItemsByCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:item" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchOrCheckStockCakeByItemNameOrCode">
+<xs:sequence>
+<xs:element name="searchText" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="searchOrCheckStockCakeByItemNameOrCodeResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:item" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkCategoryExistByName">
+<xs:sequence>
+<xs:element name="categoryName" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkCategoryExistByNameResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateStockByItemId">
+<xs:sequence>
+<xs:element name="itemId" type="xs:int" />
+<xs:element name="quantity" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updateStockByItemIdResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkVendorExistByEmail">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkVendorExistByEmailResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="editCategoryById">
+<xs:sequence>
+<xs:element name="category" type="tns:category" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="editCategoryByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrderByVendorId">
+<xs:sequence>
+<xs:element name="vendorId" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrderByVendorIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:order" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="order">
+<xs:sequence>
+<xs:element name="id" type="xs:int" />
+<xs:element name="orderDate" type="xs:string" minOccurs="0" />
+<xs:element name="orderItem" type="tns:item" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+<xs:element name="vendorId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrders">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getOrdersResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:order" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertOrder">
+<xs:sequence>
+<xs:element name="order" type="tns:order" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertOrderResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCategoryById">
+<xs:sequence>
+<xs:element name="categoryId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getCategoryByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:category" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertOrderItem">
+<xs:sequence>
+<xs:element name="orderItem" type="tns:item" minOccurs="0" />
+<xs:element name="orderId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="insertOrderItemResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCategory">
+<xs:sequence>
+<xs:element name="category" type="tns:category" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createCategoryResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendors">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getVendorsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:vendor" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrdersByInvoiceId">
+<xs:sequence>
+<xs:element name="invoiceId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getOrdersByInvoiceIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:order" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUsers">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getUsersResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:register" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getItemById">
+<xs:sequence>
+<xs:element name="itemId" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getItemByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:item" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updatePasswordByEmail">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="updatePasswordByEmailResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkLogin">
+<xs:sequence>
+<xs:element name="loginData" type="tns:login" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkLoginResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:register" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createItem">
+<xs:sequence>
+<xs:element name="item" type="tns:item" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="createItemResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getItems">
+<xs:sequence />
+</xs:complexType>
+
+<xs:complexType name="getItemsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:item" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserRole">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getUserRoleResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkUserExistByEmail">
+<xs:sequence>
+<xs:element name="email" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="checkUserExistByEmailResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:boolean" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendorTypeById">
+<xs:sequence>
+<xs:element name="vendorType" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getVendorTypeByIdResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

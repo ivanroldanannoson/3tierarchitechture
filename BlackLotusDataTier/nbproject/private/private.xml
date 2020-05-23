@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/data/DBUtil.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/data/Helper.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/test/data/DBUtilTest.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/model/Order.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/model/Register.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/model/Item.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/web/WEB-INF/web.xml</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/web/index.jsp</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/data/DBConnection.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/model/Login.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/model/Category.java</file>
+            <file>file:/Users/ivanroldan/Desktop/Project/BlackLotusDataTier/src/java/model/Vendor.java</file>
+        </group>
+    </open-files>
+</project-private>

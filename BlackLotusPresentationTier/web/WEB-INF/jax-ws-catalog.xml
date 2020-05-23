@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8082/BlackLotusBusinessTier/BusinessTier?wsdl" uri="wsdl/localhost_8082/BlackLotusBusinessTier/BusinessTier.wsdl"/>
+    <system systemId="http://localhost:8082/BlackLotusBusinessTier/BusinessTier?xsd=1" uri="wsdl/localhost_8082/BlackLotusBusinessTier/BusinessTier.xsd_1.xsd"/>
+    <system systemId="http://localhost:8082/BlackLotusBusinessTier/BusinessTier?xsd=2" uri="wsdl/localhost_8082/BlackLotusBusinessTier/BusinessTier.xsd_2.xsd"/>
+</catalog>
