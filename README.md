@@ -16,4 +16,4 @@ The development is done with
 * Apache Tomcat Server
 * MySQL database
 
-![Architecture diagram](link-to-image)
+![Architecture diagram](https://github.com/ivanroldanannoson/3tierarchitechture/blob/master/Architecture.png)
